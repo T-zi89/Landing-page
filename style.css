@@ -25,7 +25,7 @@ img {
 }
 
 nav {
-    height: 60px;
+    height: 10vh;
 }
 
 .navbar .container {
@@ -42,13 +42,18 @@ nav {
     gap: 8px;
 }
 
+.header {
+    display: flex;
+    margin-bottom: 20px;
+}
+
 .header .container {
     display:flex;
     align-items: center;
     justify-content: space-between;
     width: 900px;
     gap: 50px;
-    margin: 20px auto;
+    margin: 40px auto;
 }
 
 .header img {
@@ -56,24 +61,32 @@ nav {
     border: none;
 }
 
+.boxes {
+    display: flex;
+    flex-direction: column;
+}
+
 .boxes .container {
     display: flex;
     align-items: center;
     width: 900px;
     height: 200px;
+    margin: 30px auto;
     gap: 20px;
 }
 
-.section img {
-    width: 300px auto;
+.quote-section {
+    display: flex;
 }
 
 .quote-section .container {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    width: 900px;
+    justify-content: center;
+    width: 500px;
     height: 200px;
+    gap: 10px;
 }
 
 .call-to-action-section {
@@ -99,6 +112,10 @@ footer .container {
     justify-content: center;
     width: 900px;
     height: 60px;
+}
+
+footer {
+    height: 10vh;
 }
 
 nav,
@@ -167,7 +184,7 @@ button {
 }
 
 .thor {
-    text-align: right;
+    align-self: flex-end;
     color: #1F2937;
     font-size: 18px;
     font-weight: 900;
