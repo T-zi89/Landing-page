@@ -52,8 +52,8 @@ nav {
     align-items: center;
     justify-content: space-between;
     width: 900px;
-    gap: 50px;
-    margin: 40px auto;
+    gap: 100px;
+    margin: 20px auto;
 }
 
 .header img {
@@ -159,6 +159,7 @@ button {
 
 header button {
     border: none;
+    margin-top: 10px;
 }
 
 button {
