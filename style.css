@@ -28,7 +28,7 @@ nav {
     height: 10vh;
 }
 
-.navbar .container {
+#navbar .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,18 +36,18 @@ nav {
     width: 900px;
 }
 
-.navbar .links {
+#navbar .links {
     display: flex;
     list-style-type: none;
     gap: 8px;
 }
 
-.header {
+#header {
     display: flex;
     margin-bottom: 20px;
 }
 
-.header .container {
+#header .container {
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -56,17 +56,17 @@ nav {
     margin: 20px auto;
 }
 
-.header img {
+#header img {
     max-width: 400px;
     border: none;
 }
 
-.boxes {
+#boxes {
     display: flex;
     flex-direction: column;
 }
 
-.boxes .container {
+#boxes .container {
     display: flex;
     align-items: center;
     width: 900px;
@@ -75,11 +75,15 @@ nav {
     gap: 20px;
 }
 
-.quote-section {
+.box {
+    flex: 1;
+}
+
+#quote-section {
     display: flex;
 }
 
-.quote-section .container {
+#quote-section .container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,13 +93,13 @@ nav {
     gap: 10px;
 }
 
-.call-to-action-section {
+#call-to-action {
     display: flex;
     height: 150px;
     align-items: center;
 }
 
-.call-to-action .container {
+#call-to-action .container {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -106,7 +110,7 @@ nav {
     height: 100px;
 }
 
-footer .container {
+#footer .container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -114,13 +118,13 @@ footer .container {
     height: 60px;
 }
 
-footer {
+#footer {
     height: 10vh;
 }
 
-nav,
-header,
-footer {
+#navbar,
+#header,
+#footer {
     background-color: #1F2937;
 }
 
@@ -146,8 +150,8 @@ h2 {
 }
 
 .links,
-.header p,
-footer p {
+#header p,
+#footer p {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -157,7 +161,7 @@ button {
     padding: 5px 10px;
 }
 
-header button {
+#header button {
     border: none;
     margin-top: 10px;
 }
@@ -168,15 +172,15 @@ button {
     border:#F9FAF8 solid;
 }
 
-.call-to-action button {
+#call-to-action button {
     border-color: white;
 }
 
-.call-to-action p {
+#call-to-action p {
     color:#F9FAF8;
 }
 
-.quote-section {
+#quote-section {
     background-color: #E5E7EB;
     color: #1F2937;
     font-size: 36px;
